@@ -70,3 +70,15 @@ body {
   top: 5.55rem;
   left: 4rem;
 }
+
+.cartman__mouth {
+  height: 2rem;
+  width: 6rem;
+  position: absolute;
+  border-radius: 50%;
+  bottom: 5rem;
+  left: 51%;
+  transform: translateX(-50%) rotate(3deg); /* Kan geen flexbox gebruiken want je zit in meerdere elementen en je gebruikt al position. Om dan in het midden te komen gebruik je left en transform.*/
+  border: 0.4rem solid transparent; /* Een border om de gehele mond, maar ik wil alleen het streepje boven zwart. */
+  border-top: 0.4rem solid black;
+}
