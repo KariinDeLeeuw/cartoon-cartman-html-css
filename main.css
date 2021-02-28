@@ -9,3 +9,17 @@
 html {
   font-size: 62.5%; /* 1rem === 10px */
 }
+
+/* Hele body is even hoog als het scherm dat je ziet. Zo kan ik de cartoon ten alle tijden in het midden afbeelden, ongeacht de grootte van de scherm van de gebruiker.*/
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cartman {
+  width: 40rem; /* 400px*/
+  height: 40rem;
+  background-color: blue;
+}
