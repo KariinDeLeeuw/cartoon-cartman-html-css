@@ -35,6 +35,17 @@ body {
   border-radius: 50%;
 }
 
+.cartman__fluff {
+  position: absolute;
+  height: 4rem;
+  width: 12rem;
+  background-color: yellow;
+  border-radius: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -4%;
+}
+
 /* Om de hat ovaal te krijgen maken we een nieuwe class die we over de face en hat plaatsen met cartmans huidkleur. We hebben dus een bolling gecreërd zonder dat deze er echt is. */
 .cartman__cutout {
   position: absolute;
