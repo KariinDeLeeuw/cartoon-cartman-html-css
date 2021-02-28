@@ -93,3 +93,14 @@ body {
   border: 0.05rem solid transparent;
   border-bottom: 0.05rem solid rgba(0, 0, 0, 0.9);
 }
+
+.cartman__secondChin {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0%;
+  bottom: 4%;
+  border-radius: 50%;
+  border: 0.05rem solid transparent;
+  border-bottom: 0.05rem solid rgba(0, 0, 0, 0.9);
+}
