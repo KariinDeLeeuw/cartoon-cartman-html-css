@@ -50,6 +50,7 @@ body {
   transform: rotate(-20deg) translateY(-65%);
 }
 
+/*Dit geldt voor beide pupils*/
 .cartman__innerEye {
   position: absolute;
   width: 1.5rem;
@@ -58,11 +59,13 @@ body {
   border-radius: 50%;
 }
 
+/*Dit geldt alleen voor het linker pupil*/
 .cartman__innerEye--left {
   top: 5rem;
   right: 4rem;
 }
 
+/*Dit geldt alleen voor het rechter pupil*/
 .cartman__innerEye--right {
   top: 5.55rem;
   left: 4rem;
