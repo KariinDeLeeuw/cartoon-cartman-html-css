@@ -16,9 +16,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: lightblue;
 }
 
 .cartman {
+  position: relative;
 }
 
 .cartman__face {
@@ -26,4 +28,42 @@ body {
   height: 40rem;
   background-color: #fcdab3;
   border-radius: 50%;
+}
+/*Dit geldt voor beide ogen*/
+.cartman__eye {
+  width: 13rem;
+  height: 15rem;
+  background-color: white;
+  position: absolute; /* Wanneer je dit gebruikt gaat hij uit van de container waar hij in zit, je moet dus altijd in de parent, position relative gebruiken */
+  top: 55%;
+  border-radius: 50%;
+}
+/*Dit geldt alleen voor het linker oog*/
+.cartman__eye--left {
+  left: 7.5rem;
+  transform: rotate(30deg) translateY(-70%);
+}
+
+/*Dit geldt alleen voor het rechter oog*/
+.cartman__eye--right {
+  right: 7.6rem;
+  transform: rotate(-20deg) translateY(-65%);
+}
+
+.cartman__innerEye {
+  position: absolute;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.cartman__innerEye--left {
+  top: 5rem;
+  right: 4rem;
+}
+
+.cartman__innerEye--right {
+  top: 5.55rem;
+  left: 4rem;
 }
