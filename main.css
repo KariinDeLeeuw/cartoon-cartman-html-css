@@ -19,7 +19,11 @@ body {
 }
 
 .cartman {
-  width: 40rem; /* 400px*/
+}
+
+.cartman__face {
+  width: 50rem;
   height: 40rem;
-  background-color: blue;
+  background-color: #fcdab3;
+  border-radius: 50%;
 }
