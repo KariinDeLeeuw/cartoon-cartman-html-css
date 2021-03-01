@@ -21,6 +21,7 @@ body {
 
 .cartman {
   position: relative;
+  transform: scale(0.6); /* mobile grootte */
 }
 
 /* Face, eyes/pupils en chins heb ik eerst gedaan, maar voor de netheid zet je in CSS dit bovenaan. In HTML moet het bovenaan omdat deze op volgorde werkt*/
@@ -149,4 +150,11 @@ body {
   border-radius: 50%;
   border: 0.05rem solid transparent;
   border-bottom: 0.05rem solid rgba(0, 0, 0, 0.9);
+}
+
+@media (min-width: 62.5rem) {
+  /* 1000px */
+  .cartman {
+    transform: scale(1); /* originele grootte */
+  }
 }
