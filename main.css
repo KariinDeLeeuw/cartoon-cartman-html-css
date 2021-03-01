@@ -16,7 +16,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: lightblue;
+  background: linear-gradient(to right, #f80759, #bc4e9c);
 }
 
 .cartman {
